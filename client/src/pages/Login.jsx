@@ -22,7 +22,7 @@ function Login() {
     }
 
     localStorage.setItem('isLoggedIn', true)
-    navigate('/home') // ✅ redirect after login
+    navigate('/') // ✅ redirect after login
   }
 
   return (

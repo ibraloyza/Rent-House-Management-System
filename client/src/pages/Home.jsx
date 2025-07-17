@@ -4,6 +4,7 @@ import Featured from './Featured'
 import Recent from './Recent'
 import Location from './Location '
 import Team from './Team'
+import Footer from '../components/Footer'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
     <Recent />
     <Location />
     <Team />
+    <Footer />
     </>
   )
 }

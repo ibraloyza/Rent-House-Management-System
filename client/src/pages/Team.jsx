@@ -3,8 +3,8 @@ import Heading from "../components/Heading";
 import { team } from "../data/Data";
 const Team = () => {
   return (
-    <section className="bg-gray-100 py-16">
-      <div className="container mx-auto px-4">
+    <section className="bg-gray-100 py-16 px-16">
+      <div className="container mx-auto  text-center text-black">
         <Heading
           title="Our Featured Agents"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."

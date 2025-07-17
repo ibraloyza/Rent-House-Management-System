@@ -4,7 +4,7 @@ const RecentCard = () => {
   return (
     <div className='grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-10"'>
       {list.map((vol, index) => {
-        const { cover, category, location, name, price, type } = vol;
+        const { cover, category, location, name, price, type ,btn} = vol;
         const bgColor =
           category === "For Sale"
             ? "bg-[#25b5791a] text-[#25b579]"
@@ -50,6 +50,7 @@ const RecentCard = () => {
                 <label className="text-sm text-gray-500">/sqft</label>
               </div>
               <span className="text-sm font-medium text-gray-600">{type}</span>
+              <button className={`inline-block px-[15px] py-[4px] rounded-[2px] font-semibold text-[13px] ${bgColor}`}>{btn}</button>
             </div>
           </div>
         );

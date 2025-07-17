@@ -60,7 +60,7 @@ const Footer = () => {
 
       {/* Legal footer */}
       <div className="text-center py-5 bg-[#1d2636] text-white border-t border-white/10">
-        <span className="text-white/50 text-sm">© 2021 RentUP. Designed By GorkCoder.</span>
+        <span className="text-white/50 text-sm">© 2025 RentUP. Designed By GorkCoder.</span>
       </div>
     </>
   );

@@ -16,10 +16,6 @@ export const nav = [
     path: "/blog",
   },
   {
-    text: "pricing",
-    path: "/pricing",
-  },
-  {
     text: "contact",
     path: "/contact",
   },
@@ -56,7 +52,7 @@ export const featured = [
 export const location = [
   {
     id: 1,
-    name: "New Orleans, Louisiana",
+    name: "Hodan, Mogadishu",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -64,7 +60,7 @@ export const location = [
   },
   {
     id: 2,
-    name: "Jerrsy, United State",
+    name: "Afgoye, Lower Shabelle",
     Villas: "12 Villas",
     Apartments: "10 Apartments",
     Offices: "07 Offices",
@@ -72,37 +68,38 @@ export const location = [
   },
   {
     id: 3,
-    name: "Liverpool, London",
+    name: "Balcad, Middle Shabelle",
     Villas: "12 Villas",
-    Apartments: " 10 Apartments",
+    Apartments: "10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-3.png",
   },
   {
     id: 4,
-    name: "NewYork, United States",
+    name: "Boorama, Awdal",
     Villas: "12 Villas",
-    Apartments: " 10 Apartments",
+    Apartments: "10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-4.png",
   },
   {
     id: 5,
-    name: "Montreal, Canada",
+    name: "Hargeysa, Waqooyi Galbeed",
     Villas: "12 Villas",
-    Apartments: " 10 Apartments",
+    Apartments: "10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-5.png",
   },
   {
     id: 6,
-    name: "California, USA",
+    name: "Kismayo, Jubbaland",
     Villas: "12 Villas",
-    Apartments: " 10 Apartments",
+    Apartments: "10 Apartments",
     Offices: "07 Offices",
     cover: "./images/location/city-6.png",
-  },
+  },
 ];
+
 
 export const list = [
   {
@@ -113,6 +110,7 @@ export const list = [
     category: "For Rent",
     price: "$3,700",
     type: "Apartment",
+    btn:"Rent now"
   },
   {
     id: 2,
@@ -122,6 +120,7 @@ export const list = [
     category: "For Sale",
     price: "$9,750",
     type: "Condos",
+    btn:"Buy now"
   },
   {
     id: 3,
@@ -131,6 +130,7 @@ export const list = [
     category: "For Rent",
     price: "$5,860",
     type: "Offices",
+    btn:"Rent now"
   },
   {
     id: 4,
@@ -140,6 +140,7 @@ export const list = [
     category: "For Sale",
     price: "$7,540",
     type: "Homes & Villas",
+    btn:"Buy now"
   },
   {
     id: 5,
@@ -149,6 +150,7 @@ export const list = [
     category: "For Rent",
     price: "$4,850",
     type: "Commercial",
+    btn:"Rent now"
   },
   {
     id: 6,
@@ -158,6 +160,7 @@ export const list = [
     category: "For Sale",
     price: "$2,742",
     type: "Apartment",
+    btn:"Buy now"
   },
 ];
 

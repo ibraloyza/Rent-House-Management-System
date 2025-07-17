@@ -7,6 +7,8 @@ import Footer from './components/Footer'
 import Signup from './pages/Signup'
 import Login from './pages/Login'
 import Dashboard from './pages/Dashboard'
+import ProtectedRoute from './components/ProtectedRoute'
+import About from './pages/About '
 
 function App() {
   return (
@@ -14,12 +16,18 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Home/>}/>
-        <Route path='/houses' element={<Houses />}/>
-        <Route path='/dashboard' element={<Dashboard/>} />
+        <Route path='/about' element={<About />}/>
+        <Route path='/service' element={<About />}/>
+        <Route path='/about' element={<About />}/>
+
         <Route path='/signup' element={<Signup />} />
         <Route  path='/login' element={<Login />}/>
+            <Route path='/dashboard' element={         
+              <ProtectedRoute>
+               <Dashboard />
+             </ProtectedRoute>} />
+        
       </Routes>
-      <Footer />
     </Router>
   )
 }

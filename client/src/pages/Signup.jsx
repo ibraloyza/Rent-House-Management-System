@@ -29,8 +29,9 @@ function Signup() {
       password: form.password,
     }
 
-    localStorage.setItem('user', JSON.stringify(userData))
-    navigate('/home') // redirect to login page
+    localStorage.setItem( 'user', JSON.stringify(userData))
+    localStorage.setItem('isLoggedIn', true)
+    navigate('/') // redirect to login page
   }
 
   return (

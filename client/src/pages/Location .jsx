@@ -5,7 +5,7 @@ import { location } from "../data/Data";
 const Location = () => {
   return (
     <section className="py-12 x-16 bg-white">
-      <div className="container mx-auto px-4 text-center">
+      <div className="container mx-auto px-16 text-center">
         <Heading
           title="Explore By Location"
           subtitle="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna  aliqua. Ut enim ad minim veniam."
